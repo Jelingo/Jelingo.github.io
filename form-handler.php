@@ -15,7 +15,7 @@
                     "Subject: $subject .\n".
                     "User Message: $message.\n "; 
     
-$to = '95boots@gmail.com';
+$to = 'Jeligio23@gmail.com';
 
 $headers = "From: $email_from \r\n ";
 

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>T&T Grand Milling and Lumber</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@100&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+  <!-- The script allows Font Awesome icons to be used -->
+  <script src="https://kit.fontawesome.com/f47fb01d4a.js" crossorigin="anonymous"></script>
+</head>
+
+<!-- Main start to the webpage. Nav Bar and Business Name-->
+<body>
+
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="img/light_logo.png"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> 
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Aboutus.html">About Us</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>About Us</h1>
+   
+  </section>
+
+  <!-- About us Content -->
+  
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>We are a local  milling and lumber company. </h1>
+          <p>We are a local family owned and ran saw mill and lumber company. All our wood is locally sourced and
+            milled at our farm in pelican rapids MN. We produce high quality lumber and slabs with our chainsaw mill
+            and portable band saw mill. We can also bring our portable mill to your location and custom mill your logs on your property.</p>
+            <a href="" class="hero-btn red-btn">Contact Us Today</a>
+      </div>
+      <div class="about-col">
+        <img src="img/mainlumberhome2.jpg" alt="Saw Mill">
+      </div>
+    </div>
+
+
+  </section>
+
+    <!-- Footer -->
+<section class="footer">
+  <h4>Social Media</h4>
+  <p>Explore our Facebook page to see what we are currently working on.</p>
+
+  <div class="footericon">
+    <a href="https://www.facebook.com/TT-Grand-Lumber-103647848864839/ " target="blank"><i class="fa-brands fa-facebook"></i></a>
+  </div>
+  <p>Created by Jeligio Development <a href="https://www.instagram.com/jeligio11/?hl=en" target="blank"> <i class="fa-brands fa-instagram"></i></a> and logo by BasicleeAndrew <i class="fa-brands fa-instagram"></i></p>
+
+</section>
+
+<!-- JavaScript for Toggle Menu -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+</script>
+
+</body>
+</html>
